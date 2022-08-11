@@ -1,5 +1,5 @@
 import Profile from './Profile/Profile';
-import resetCss from 'reset-css'
+import 'reset-css'
 import user from '../data/user.json';
 
 
