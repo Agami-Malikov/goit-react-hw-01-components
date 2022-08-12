@@ -1,0 +1,33 @@
+.friendList {
+  display: flex;
+  border: 1px solid grey;
+  margin: 0 auto;
+  width: 320px;
+}
+
+.item {
+  padding: 8px; 
+  border-left: 1px solid grey;
+}
+
+.isOnline {
+  background-color: green;
+}
+
+.isOffline {
+  background-color: red;
+}
+
+.isOnline ,
+.isOffline {
+  margin: 10px 0 10px 20px ;
+  display: block;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.name {
+  margin-top: 5px;
+  text-align: center;
+}
